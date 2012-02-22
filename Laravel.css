@@ -533,7 +533,8 @@
 }
 
 .flux .blocktable h3 {
-	font-size: 1.077em;
+	font-size: 1.377em;
+	line-height: 1.1em;
 	font-weight: bold;
 	padding: 0;
 }
@@ -616,7 +617,8 @@
 
 #fluxindex td.tc2, #fluxindex td.tc3, #fluxindex td.tcr, .flux #vf td.tc2, .flux #vf td.tc3,
 .flux #vf td.tcr, #fluxindex td.tcl div.forumdesc, .flux #vf td.tcl span {
-	font-size: 0.923em;
+	font-size: 1.123em;
+	line-height: 1.4em;
 }
 
 .flux #vf td.tcl a {
@@ -1623,7 +1625,7 @@ COLOUR SCHEME
 }
 
 .flux .inew .icon {
-	border-color: #91b3d9 #87a8d1 #6c85bb #7292c3;
+	border-color: #91b3d9 #87a8d1 #c74130 #7292c3;
 }
 
 
