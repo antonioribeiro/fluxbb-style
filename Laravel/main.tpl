@@ -3,11 +3,11 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-<link rel="stylesheet" type="text/css" href="http://beta.laravel.com/css/style.css">
+<link rel="stylesheet" type="text/css" href="http://laravel.com/css/style.css">
 <link rel="shortcut icon" href="style/Laravel/favicon.png">
 <script type="text/javascript" src="http://use.typekit.com/dlj4kfm.js"></script>
 <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-<script type="text/javascript" src="http://beta.laravel.com/js/modernizr-2.5.2.min.js"></script>
+<script type="text/javascript" src="http://laravel.com/js/modernizr-2.5.2.min.js"></script>
 
 <pun_head>
 </head>
