@@ -28,12 +28,11 @@
 ----------------------------------------------------------------*/
 
 .flux table, .flux td, .flux th, .flux input, .flux select, .flux optgroup, .flux textarea, .flux legend {
-	font-family: Arial, Helvetica, sans-serif;
+	padding: 0 3px;
 	font-size: 1em;
 }
 
 .flux pre, .flux code {
-	font-family: consolas, monaco, "bitstream vera sans mono", "courier new", courier, monospace;
 	font-size: 1em;
 }
 
@@ -127,10 +126,6 @@
 	padding: 30px 0;
 }
 
-#fluxredirect, #fluxmaint {
-	padding: 60px 20% 12px 20%;
-}
-
 #fluxinstall, #fluxdb_update {
 	padding: 20px 10%;
 }
@@ -167,7 +162,7 @@
 }
 
 #fluxredirect h2, #fluxmaint h2 {
-	border-bottom-style: dotted;
+	border-bottom-style: dashed;
 	border-bottom-width: 1px;
 	margin-bottom: 3px;
 }
@@ -244,8 +239,8 @@
 	white-space: nowrap;
 }
 
-#brdmenu a:hover, #brmenu a:active, #brdmenu a:focus {
-	color: #FB503B;
+#brdmenu a:hover, #brdmenu a:active, #brdmenu a:focus {
+	color: #FBCC62;
 	text-decoration: none;
 }
 
@@ -253,7 +248,7 @@
 ----------------------------------------------------------------*/
 
 #brdwelcome {
-	padding: 10px 0;
+	padding: 0 0 10px 0;
 }
 
 #brdwelcome .conl, #brdwelcome .conr, #brdwelcome p, #brdwelcome li {
@@ -296,7 +291,7 @@
 }
 
 #brdstats #onlinelist {
-	border-top-style: dotted;
+	border-top-style: dashed;
 	border-top-width: 1px;
 	clear: both;
 }
@@ -309,7 +304,7 @@
 ----------------------------------------------------------------*/
 
 .flux #modcontrols {
-	border-style: none none dotted none;
+	border-style: none none dashed none;
 	border-width: 0 0 1px 0;
 	margin-bottom: 4px;
 	text-align: center;
@@ -370,7 +365,7 @@
 }
 
 .flux #debugtime {
-	border-style: dotted none none none;
+	border-style: dashed none none none;
 	border-width: 1px 0 0 0;
 	margin-top: 7px;
 	text-align: center;
@@ -389,24 +384,22 @@
 }
 
 .flux .linkst .crumbs {
-	font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
 	font-size: 1.462em;
 	line-height: 1.211em;
 	padding: 7px 0;
 }
 
 .flux .linksb .crumbs, .flux .postlinksb .crumbs {
-	font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
 	font-size: 1.154em;
 }
 
 .flux .linkst .crumbsplus .pagepost {
-	border-top-style: dotted;
+	border-top-style: dashed;
 	border-top-width: 1px;
 }
 
 .flux .linksb .crumbsplus .pagepost, .flux .postlinksb .crumbsplus .pagepost {
-	border-bottom-style: dotted;
+	border-bottom-style: dashed;
 	border-bottom-width: 1px;
 }
 
@@ -838,10 +831,6 @@ MAIN POSTS
 	padding: 7px 0;
 }
 
-.flux .postmsg p, .flux .postmsg li, #fluxhelp p samp {
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-}
-
 .flux .usercontent h1, .flux .usercontent h2, .flux .usercontent h3,
 .flux .usercontent h4, .flux .usercontent h5, .flux .usercontent h6 {
 	padding: 7px 0 0 0;
@@ -1046,6 +1035,8 @@ MAIN FORMS
 }
 
 .flux legend {
+	line-height: 24px;
+	margin-bottom: 0;
 	font-weight: bold;
 	padding: 10px 19px 4px 19px;
 }
@@ -1075,11 +1066,6 @@ MAIN FORMS
 
 .flux fieldset .usercontent p {
 	padding: 7px 0;
-}
-
-.flux fieldset label {
-	display: block;
-	padding: 0 0 7px 0;
 }
 
 .flux label em {
@@ -1139,10 +1125,6 @@ MAIN FORMS
 	width: 1em;
 }
 
-.flux input[type=text], .flux select, .flux textarea {
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-}
-
 .flux .txtarea textarea, .flux input.longinput {
 	width: 98%;
 }
@@ -1176,7 +1158,7 @@ MAIN FORMS
 }
 
 .flux #login p.clearb {
-	border-top-style: dotted;
+	border-top-style: dashed;
 	border-top-width: 1px;
 	font-size: 0;
 	height: 0;
@@ -1230,13 +1212,6 @@ MAIN FORMS
 	border-style: solid;
 	border-width: 1px;
 	padding: 5px 18px;
-}
-
-
-#fluxhelp .box {
-	border-style: solid;
-	border-width: 1px;
-	padding: 7px 12px;
 }
 
 .flux .multiselect {
@@ -1307,13 +1282,13 @@ PROFILES (+ ADMIN MENU)
 }
 
 .flux .blockmenu ul {
-	border-top-style: dotted;
+	border-top-style: dashed;
 	border-top-width: 1px;
 	padding: 0;
 }
 
 .flux .blockmenu li {
-	border-bottom-style: dotted;
+	border-bottom-style: dashed;
 	border-bottom-width: 1px;
 	font-weight: bold;
 	padding: 0;
@@ -1407,27 +1382,6 @@ COLOUR SCHEME
 
 .flux .postmsg .postimg a:hover img, .flux .postmsg .postimg a:active img, .flux .postmsg .postimg a:focus img {
 	border-color: #b50000;
-}
-
-/* Primary Navigation
-----------------------------------------------------------------*/
-
-#brdmenu {
-	/*background: #44699c;*/
-}
-
-#brdmenu a, #brdmenu a:link, #brdmenu a:visited {
-	/*background: #44699c;*/
-	/*border-color: #fff;*/
-	/*color: #d4dae2;*/
-}
-
-#brdmenu a:hover, #brdmenu a:active, #brdmenu a:focus {
-	/*background: #b50000;*/
-	/*border-color: #fff;*/
-	/*color: #fff;*/
-
-	color: #FB503B;
 }
 
 /* Main Tables
@@ -1527,7 +1481,7 @@ COLOUR SCHEME
 	background: #ebf1f5;
 }
 
-#fluxmisc #rules .box, #fluxhelp .box {
+#fluxmisc #rules .box {
 	border-color: #b9c5ce #d9e1e7;
 	background: #f6f9fc;
 }
@@ -1654,12 +1608,24 @@ footer .pull-right {
 	white-space: nowrap;
 }
 
-label input, label textarea, label select {
+.flux label input, .flux label textarea, .flux label select {
 	display: inline-block;
-	line-height: 1;
 }
 
 .navbar .nav {
 	text-transform: uppercase;
 }
 
+.flux .blockmenu h2 {
+	font-size: 18px;
+}
+
+
+
+#fluxredirect h2, #fluxmaint h2 {
+	font-size: 30px;
+	text-transform: uppercase;
+	margin-bottom: 18px;
+	padding-bottom: 20px;
+	border-bottom: 1px dashed #CCC;
+}
