@@ -4,6 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
 <link rel="stylesheet" type="text/css" href="http://beta.laravel.com/css/style.css">
+<link rel="shortcut icon" href="style/Laravel/favicon.png">
 <script type="text/javascript" src="http://use.typekit.com/dlj4kfm.js"></script>
 <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 <script type="text/javascript" src="http://beta.laravel.com/js/modernizr-2.5.2.min.js"></script>
@@ -13,25 +14,16 @@
 
 <body>
 
-<div id="punhelp" class="container pun">
+<div id="fluxhelp" class="container flux">
 
 	<pun_title>
 
-	<div class="punwrap well">
+	<div class="fluxwrap well">
 		<div id="brdmain">
 			<pun_main>
 		</div>
 	</div>
 </div>
-
-<script type="text/javascript">
-var SITE_URL = "http://forums.laravel.com/";
-</script>
-<script type="text/javascript">
-window.jQuery || document.write('<script src="http://beta.laravel.com/js/jquery-1.7.1.min.js"><\/script>');
-</script>
-<script src="http://beta.laravel.com/js/bootstrap.js"></script>
-<script src="http://beta.laravel.com/js/main-min.js"></script>
 
 </body>
 </html>
