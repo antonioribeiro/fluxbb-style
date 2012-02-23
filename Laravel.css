@@ -41,7 +41,8 @@
 }
 
 .flux p, .flux ul, .flux ol, .flux dl, .flux th, .flux td, .flux legend {
-	padding: 7px 0;
+	margin: 7px 0;
+	padding: 0;
 }
 
 .flux strong, .flux th, .flux span.warntext, .flux p.warntext {
@@ -811,10 +812,11 @@ MAIN POSTS
 }
 
 .flux .postsignature hr {
-	border:none;
+	border: none;
 	height: 1px;
 	margin-left: 0px;
 	text-align: left;
+	margin: 0;
 }
 
 /* Content (includes other user content)
@@ -1581,4 +1583,6 @@ footer .pull-right {
 	background: none;
 	border: none;
 }
+
+
 
