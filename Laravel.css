@@ -618,6 +618,7 @@
 #fluxindex td.tcl p.modlist {
 	font-size: 12px;
 	padding-top: 0;
+	margin: 0;
 }
 
 .flux #vf td.tcl a {
