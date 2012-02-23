@@ -1532,7 +1532,7 @@ COLOUR SCHEME
 /* Other Stuff for Laravel
  ----------------------------------------------------------------*/
 
-.flux .container {
+.container, .flux .container {
 	width: auto;
 	margin-left: 40px;
 	margin-right: 40px;
