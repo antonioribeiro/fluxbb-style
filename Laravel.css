@@ -5,7 +5,7 @@
 /* Limited Reset
 ----------------------------------------------------------------*/
 
-.flux table, .flux div, .flux form, .flux p, .flux pre, .flux blockquote,
+.flux table, .flux div, .flux form, .flux p, .flux blockquote,
 .flux ul, .flux ol, .flux li, .flux dl, .flux dt, .flux dd, .flux th, .flux td, .flux fieldset, .flux legend .flux img,
 .flux abbr, .flux cite {
 	border: 0;
@@ -29,14 +29,6 @@
 
 .flux table, .flux td, .flux th, .flux input, .flux select, .flux optgroup, .flux textarea, .flux legend {
 	padding: 0 3px;
-	font-size: 1em;
-}
-
-.flux pre, .flux code {
-	font-size: 1em;
-}
-
-.flux pre code {
 	font-size: 1em;
 }
 
@@ -124,6 +116,7 @@
 
 .flux {
 	padding: 30px 0;
+	background-color: #2F3030;
 }
 
 #fluxinstall, #fluxdb_update {
@@ -884,13 +877,6 @@ MAIN POSTS
 	font-size: 0.923em;
 }
 
-.flux .codebox {
-	border-style: solid;
-	border-width: 1px;
-	margin: 0.75em 1em;
-	padding: 0;
-}
-
 .flux .quotebox {
 	border-style: solid;
 	border-width: 1px 1px 1px 3px;
@@ -908,41 +894,6 @@ MAIN POSTS
 .flux .quotebox blockquote {
 	overflow: hidden;
 	width: 100%;
-}
-
-.flux .codebox pre {
-	overflow-y:hidden;
-	overflow: auto;
-	width: 100%;
-	direction: ltr;
-	text-align: left;
-}
-
-* html .flux .codebox pre {
-	padding-bottom: 10px;
-}
-
-*:first-child+html .flux .codebox pre {
-	padding-bottom: 10px;
-}
-
-.flux .codebox pre code {
-	padding: 0.75em;
-	white-space: pre;
-}
-
-.flux div[class*=codebox] pre code {
-	display: inline-block;
-}
-
-* html .flux .codebox pre code {
-	display: block;
-}
-
-.flux .codebox pre.vscroll {
-	height: 32em;
-	overflow: auto;
-	overflow-y: auto
 }
 
 .flux .postmsg img, #fluxhelp samp img {
@@ -1442,10 +1393,6 @@ COLOUR SCHEME
 	color: #fcfdfe;
 }
 
-.flux .postmsg, #fluxhelp code, #fluxhelp samp {
-	color: #333;
-}
-
 .flux .postsignature, .flux .postmsg .postedit {
 	color: #566579;
 }
@@ -1458,11 +1405,6 @@ COLOUR SCHEME
 
 .flux .quotebox cite {
 	color: #357082;
-}
-
-.flux .codebox, #fluxhelp .codebox code {
-	background: #333;
-	color: #fff;
 }
 
 .flux .postmsg hr {
@@ -1620,7 +1562,9 @@ footer .pull-right {
 	font-size: 18px;
 }
 
-
+#fluxhelp .box {
+	margin-bottom: 2em;
+}
 
 #fluxredirect h2, #fluxmaint h2 {
 	font-size: 30px;
@@ -1629,3 +1573,12 @@ footer .pull-right {
 	padding-bottom: 20px;
 	border-bottom: 1px dashed #CCC;
 }
+
+.flux code {
+	background-color: #fff;
+}
+.flux pre code {
+	background: none;
+	border: none;
+}
+
