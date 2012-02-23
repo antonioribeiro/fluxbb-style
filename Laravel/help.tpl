@@ -1,7 +1,7 @@
 
 <pun_include "header.html">
 
-<div id="fluxhelp" class="flux"><div class="container">
+<div id="fluxhelp" class="container flux">
 
 	<pun_title>
 
@@ -10,6 +10,6 @@
 			<pun_main>
 		</div>
 	</div>
-</div></div>
+</div>
 
 <pun_include "footer.html">
