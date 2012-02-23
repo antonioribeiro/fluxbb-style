@@ -1,8 +1,7 @@
 
 <pun_include "header.html">
 
-<div id="flux<pun_page>" class="container flux">
-
+<div id="flux<pun_page>" class="flux"><div class="container">
 	<div class="row">
 		<div class="pull-left">
 			<pun_title>
@@ -25,6 +24,6 @@
 		<pun_footer>
 
 	</div>
-</div>
+</div></div>
 
 <pun_include "footer.html">
