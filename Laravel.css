@@ -24,6 +24,10 @@
 	padding-top: 1px;
 }
 
+.flux h1, .flux h2, .flux h3, .flux h4, .flux h5, .flux h6 {
+	font-family: "droid-serif", serif;
+}
+
 /* Content Defaults
 ----------------------------------------------------------------*/
 
@@ -214,6 +218,7 @@
 
 #brdmenu ul {
 	padding: 0;
+	margin: 0;
 }
 
 #brdmenu li {
@@ -250,6 +255,7 @@
 #brdwelcome .conl, #brdwelcome .conr, #brdwelcome p, #brdwelcome li {
 	display: inline;
 	padding: 0;
+	margin: 0;
 }
 
 #brdwelcome .conl {
@@ -379,16 +385,6 @@
 	position: relative;
 }
 
-.flux .linkst .crumbs {
-	font-size: 1.462em;
-	line-height: 1.211em;
-	padding: 7px 0;
-}
-
-.flux .linksb .crumbs, .flux .postlinksb .crumbs {
-	font-size: 1.154em;
-}
-
 .flux .linkst .crumbsplus .pagepost {
 	border-top-style: dashed;
 	border-top-width: 1px;
@@ -403,14 +399,37 @@
 	margin-right: 11em;
 }
 
+.flux .linkst .crumbs {
+	margin: 0;
+}
+
 .flux .crumbs li {
-	float: left;
-	padding-right: 0.4em;
 	white-space: nowrap;
+	display: inline; /* IE6 won't line this, but I don't like IE6 */
 }
 
 .flux .crumbs li strong {
 	font-weight: normal;
+}
+
+.flux .linkst .crumbs li:nth-last-child(2):after {
+	content: " »";
+}
+
+.flux .linkst .crumbs li:last-child {
+	display: block;
+	margin: 7px 0;
+}
+
+.flux .linkst .crumbs li:last-child > span {
+	display: none;
+}
+
+.flux .linkst .crumbs li:last-child a {
+/* Like a h2, touched for the very first time */
+	font-family: "droid-serif", serif;
+	font-size: 26px;
+	line-height: 1;
 }
 
 .flux .pagelink {
@@ -511,7 +530,6 @@
 	border-style: none none solid none;
 	border-width: 1px;
 	text-align: left;
-	text-transform: uppercase;
 }
 
 .flux .blocktable td {
@@ -531,6 +549,7 @@
 
 .flux .blocktable p {
 	padding: 0;
+	margin: 0;
 }
 
 .flux .blocktable .tcl p {
@@ -608,11 +627,6 @@
 #fluxindex td.tc2, #fluxindex td.tc3, #fluxindex td.tcr, .flux #vf td.tc2, .flux #vf td.tc3,
 .flux #vf td.tcr, #fluxindex td.tcl div.forumdesc, .flux #vf td.tcl span {
 	/* Rules for "table" on index page */
-}
-
-#fluxindex td.tcl div.forumdesc {
-	font-family: "droid-serif", serif;
-	font-size: 12px;
 }
 
 #fluxindex td.tcl p.modlist {
@@ -740,6 +754,7 @@ MAIN POSTS
 
 .flux .blockpost .postleft dl {
 	padding: 0;
+	margin: 0;
 }
 
 #fluxviewtopic .blockpost dt, #fluxmoderate .blockpost dt {
@@ -791,6 +806,7 @@ MAIN POSTS
 
 .flux .postfoot p, .flux .postfoot ul {
 	padding: 0;
+	margin: 0;
 }
 
 .flux .blockpost .postfootright li {
@@ -870,6 +886,7 @@ MAIN POSTS
 
 .flux .usercontent li p, .flux .postmsg li p {
 	padding: 0;
+	margin: 0;
 }
 
 .flux span.bbu {
@@ -1026,7 +1043,7 @@ MAIN FORMS
 }
 
 .flux fieldset p {
-	padding: 0 0 7px 0;
+	margin: 0 0 7px 0;
 	width: 100%;
 }
 
@@ -1251,6 +1268,7 @@ PROFILES (+ ADMIN MENU)
 	border-top-style: dashed;
 	border-top-width: 1px;
 	padding: 0;
+	margin: 0;
 }
 
 .flux .blockmenu li {
@@ -1258,6 +1276,7 @@ PROFILES (+ ADMIN MENU)
 	border-bottom-width: 1px;
 	font-weight: bold;
 	padding: 0;
+	margin: 0;
 }
 
 .flux .blockmenu a:link, .flux .blockmenu a:visited {
@@ -1293,6 +1312,7 @@ PROFILES (+ ADMIN MENU)
 	border-width: 1px;
 	margin: 7px 0;
 	padding: 0;
+	margin: 0;
 	width: 100%;
 	position: relative;
 }
@@ -1320,6 +1340,7 @@ PROFILES (+ ADMIN MENU)
 #adstats dl {
 	margin: 0;
 	padding: 0;
+	margin: 0;
 	width: 100%;
 	position: relative;
 }
@@ -1597,5 +1618,7 @@ footer .pull-right {
 	border: none;
 }
 
-
-
+.flux .txtarea input {
+	line-height: 1;
+	padding: 3px 6px;
+}
