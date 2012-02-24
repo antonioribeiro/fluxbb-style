@@ -1360,7 +1360,7 @@ COLOUR SCHEME
 
 .flux .pagepost, #brdstats #onlinelist, #brdfooter #searchlinks, #brdfooter #modcontrols,
 #fluxmaint h2, #fluxredirect h2, #adminconsole .submittop, .flux #debugtime, .flux .pagelink a, .flux .pagelink * {
-	border-color: #b9c5ce;
+	border-color: #B9B9B9;
 }
 
 .flux .postmsg .postimg a:link img, .flux .postmsg .postimg a:visited img {
@@ -1375,17 +1375,17 @@ COLOUR SCHEME
 ----------------------------------------------------------------*/
 
 .flux .blocktable .box {
-	background: #fcfdfe;
-	border-color: #b9c5ce #d9e1e7;
+	background: #FCFCFC;
+	border-color: #B9B9B9 #E1E1E1;
 }
 
 #fluxindex .blocktable h2, .flux #vf h2 {
-	color: #357082;
+	color: #353535;
 }
 
 #adminconsole fieldset th, #adminconsole fieldset td {
-	background: #f6f9fc;
-	border-color: #dfe6ee;
+	background: #F9F9F9;
+	border-color: #DFDFDF;
 }
 
 .flux #users1 h2 {
@@ -1393,58 +1393,58 @@ COLOUR SCHEME
 }
 
 .flux .blocktable td {
-	border-color: #dfe6ee;
+	border-color: #DFDFDF;
 }
 
 .flux .blocktable th {
-	background: #ebf1f5;
-	border-color: #cad7e1;
-	color: #357082;
+	background: #EBEBEB;
+	border-color: #CACACA;
+	color: #353535;
 }
 
 .flux .blocktable td.tcl span.stickytext {
-	color: #3399CC;
+	color: #333333;
 }
 
 /* Main Posts
 ----------------------------------------------------------------*/
 
 .flux .blockpost {
-	background: #f6f9fc;
-	border-color: #b9c5ce #d9e1e7;
+	background: #F9F9F9;
+	border-color: #B9B9B9 #E1E1E1;
 }
 
 .flux .blockpost h2 {
-	background: #ebf1f5;
-	border-color: #cad7e1;
-	color: #357082;
+	background: #EBEBEB;
+	border-color: #CACACA;
+	color: #353535;
 }
 
 .flux .blockpost .postbody, .flux .blockpost .postfoot {
-	background: #fcfdfe;
-	border-color: #dfe6ee;
+	background: #FCFCFC;
+	border-color: #DFDFDF;
 }
 
 .flux .blockpost .postfootright li {
-	color: #fcfdfe;
+	color: #FCFCFC;
 }
 
 .flux .postsignature, .flux .postmsg .postedit {
-	color: #566579;
+	color: #565656;
 }
 
 .flux .quotebox {
-	background: #f8f9f0;
-	border-color: #7aadbd;
-	color: #566579;
+	background: #F8F8F8;
+	border-color: #7A7A7A;
+	color: #565656;
 }
 
 .flux .quotebox cite {
-	color: #357082;
+	color: #353535;
 }
 
 .flux .postmsg hr {
-	background: #b9c5ce;
+	background: #B9B9B9;
 }
 
 .flux .postmsg ins, #fluxhelp samp ins {
@@ -1455,57 +1455,57 @@ COLOUR SCHEME
 ----------------------------------------------------------------*/
 
 .flux .blockform .box, #adstats, #adintro, #postpreview, #posterror {
-	border-color: #b9c5ce #d9e1e7;
-	background: #ebf1f5;
+	border-color: #B9B9B9 #E1E1E1;
+	background: #EBEBEB;
 }
 
 #fluxmisc #rules .box {
-	border-color: #b9c5ce #d9e1e7;
-	background: #f6f9fc;
+	border-color: #B9B9B9 #E1E1E1;
+	background: #F9F9F9;
 }
 
 .flux #quickpost h2, #fluxpost .blockform h2, #fluxedit .blockform h2, #posterror h2,
 #fluxdelete .blockform h2 {
-	background: #ebf1f5;
-	color: #357082;
+	background: #EBEBEB;
+	color: #353535;
 }
 
 .flux .forminfo {
 	background: #fff;
-	border-color: #dfe6ee;
+	border-color: #DFDFDF;
 }
 
 #fluxinstall form#install .forminfo {
-	background: #44699c;
+	background: #696969;
 	color: #fff;
 }
 
 .flux #posterror .error-info {
 	background: #ffffe1;
-	border-color: #dfe6ee;
+	border-color: #DFDFDF;
 }
 
 #fluxinstall form#install .error-info {
 	background: #ffffe1;
-	border-color: #dfe6ee;
+	border-color: #DFDFDF;
 	color: #333;
 }
 
 .flux .infldset, #adintro .inbox, #adstats .inbox {
-	background: #f6f9fc;
-	border-color: #dfe6ee;
+	background: #F9F9F9;
+	border-color: #DFDFDF;
 }
 
 .flux label, .flux legend, #adminconsole fieldset th {
-	color: #357082;
+	color: #353535;
 }
 
 .flux fieldset p {
-	border-color: #b9c5ce;
+	border-color: #B9B9B9;
 }
 
 .flux .blockmenu ul, .flux .blockmenu li {
-	border-color: #b9c5ce;
+	border-color: #B9B9B9;
 }
 
 .flux .blockmenu a:hover, .flux .blockmenu a:active, .flux .blockmenu a:focus {
@@ -1514,20 +1514,20 @@ COLOUR SCHEME
 
 .flux .blockmenu .isactive a:link, .flux .blockmenu .isactive a:visited {
 	color: #333;
-	background: #f6f9fc;
-	}
+	background: #F9F9F9;
+}
 
 .flux #viewprofile .box {
-	border-color: #b9c5ce #d9e1e7;
-	background: #ebf1f5;
+	border-color: #B9B9B9 #E1E1E1;
+	background: #EBEBEB;
 }
 
 .flux #viewprofile dt, #adstats dt {
-	color: #357082;
+	color: #353535;
 }
 
 .flux #viewprofile dl, .flux #viewprofile dd, #adstats dl, #adstats dd {
-	border-color: #dfe6ee;
+	border-color: #DFDFDF;
 }
 
 #adminconsole fieldset td.nodefault {
@@ -1535,7 +1535,7 @@ COLOUR SCHEME
 }
 
 .flux .multiselect {
-	color: #357082;
+	color: #353535;
 }
 
 .flux .checklist {
@@ -1551,7 +1551,7 @@ COLOUR SCHEME
 }
 
 .flux .iredirect .icon {
-	border-color: #b9c5ce;
+	border-color: #B9B9B9;
 	border-width: 1px;
 	padding: 7px;
 }
