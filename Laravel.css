@@ -45,7 +45,8 @@
 }
 
 .flux p, .flux ul, .flux ol, .flux dl, .flux th, .flux td, .flux legend {
-	margin: 7px 0;
+	line-height: 18px;
+	margin: 12px 0;
 	padding: 0;
 }
 
@@ -851,29 +852,19 @@ MAIN POSTS
 /* Content (includes other user content)
 ----------------------------------------------------------------*/
 
-.flux .usercontent {
-	padding: 7px 0;
-}
-
-.flux .usercontent h1, .flux .usercontent h2, .flux .usercontent h3,
-.flux .usercontent h4, .flux .usercontent h5, .flux .usercontent h6 {
-	padding: 7px 0 0 0;
-}
-
 .flux .postmsg h5, #fluxhelp h5 {
 	font-size: 1.231em;
 	font-weight: bold;
-	padding: 7px 0;
 }
 
 .flux .usercontent ul, .flux .postmsg ul {
 	list-style: disc;
-	padding: 4px 13px 4px 30px;
+	padding: 0 13px 0 30px;
 }
 
 .flux .usercontent ol, .flux .postmsg ol {
 	list-style: decimal;
-	padding: 4px 13px 4px 30px;
+	padding: 0 13px 0 30px;
 }
 
 .flux .usercontent ol.alpha, .flux .postmsg ol.alpha {
