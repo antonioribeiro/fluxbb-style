@@ -172,10 +172,11 @@
 ----------------------------------------------------------------*/
 
 #brdmain {
-	border-style: solid none;
-	border-width: 2px 0;
+	border-color: #7A7A7A;
+	border-style: solid none none none;
+	border-width: 2px 0 0 0;
 	margin-bottom: 12px;
-	padding: 12px 0;
+	padding: 12px 0 0 0;
 }
 
 #fluxindex #brdmain {
@@ -189,23 +190,24 @@
 }
 
 #brdstats {
-	border-style: solid none none none;
-	border-width: 2px 0 0 0;
+	border-color: #7A7A7A;
+	border-style: solid none;
+	border-width: 2px 0;
 	margin-top: 24px;
-	padding-top: 12px;
 }
 
 #quickpost {
-	border-style: solid none none none;
-	border-width: 2px 0 0 0;
 	margin-top: 12px;
-	padding-top: 12px;
 }
 
 #announce {
+	border-color: #7A7A7A;
 	border-style: solid none none none;
 	border-width: 2px 0 0 0;
-	padding-top: 3px;
+}
+
+#announce .usercontent {
+	margin: 6px 0;
 }
 
 /*****************************************************************
@@ -297,6 +299,7 @@
 	border-top-style: dashed;
 	border-top-width: 1px;
 	clear: both;
+	padding-top: 12px;
 }
 
 #brdstats #onlinelist dt, #brdstats #onlinelist dd {
@@ -794,7 +797,7 @@ MAIN POSTS
 }
 
 .flux .postmsg {
-	width:100%;
+	width: 100%;
 	overflow: hidden;
 	word-wrap: break-word;
 }
@@ -1591,6 +1594,11 @@ footer .pull-right {
 
 #fluxhelp .box {
 	margin-bottom: 2em;
+}
+#fluxhelp #brdmain {
+	border-style: none;
+	border-width: 0;
+	padding-top: 0;
 }
 
 #fluxredirect h2, #fluxmaint h2 {
