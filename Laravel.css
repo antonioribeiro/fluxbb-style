@@ -493,7 +493,7 @@
 }
 
 #fluxindex #brdmain .blocktable h2, #fluxsearch #vf h2 {
-	font: 1em/1.462em Arial, Helvetica, sans-serif;
+	font: 1em/1.462em "proxima-nova", sans-serif;
 	font-weight: bold;
 	margin: 1px 1px 0 1px;
 	padding: 7px 8px;
@@ -696,7 +696,7 @@ MAIN POSTS
 }
 
 .flux .blockpost h2 {
-	font: 1em/1.462em Arial, Helvetica, sans-serif;
+	font: 1em/1.462em "proxima-nova", sans-serif;
 	white-space: nowrap;
 	border-bottom-style: solid;
 	border-bottom-width: 1px;
@@ -715,7 +715,7 @@ MAIN POSTS
 #fluxsearch .blockpost h2 span span {
 	white-space: nowrap;
 	display: inline-block;
-	font: 1.077em "Trebuchet MS", Arial, Helvetica, sans-serif
+	font: 1.077em "proxima-nova", sans-serif
 }
 
 #fluxsearch .blockpost .icon {
@@ -940,7 +940,7 @@ MAIN FORMS
 
 #fluxedit .blockform h2, #fluxpost .blockform h2, #postpreview h2, #posterror h2,
 .flux #quickpost h2, .flux #reportform h2, #fluxdelete .blockform h2 {
-	font: 1em/1.462em Arial, Helvetica, sans-serif;
+	font: 1em/1.462em "proxima-nova", sans-serif;
 	font-weight: bold;
 	white-space: nowrap;
 	padding: 10px 19px 4px 37px;
