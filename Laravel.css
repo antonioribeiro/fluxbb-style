@@ -1621,3 +1621,7 @@ footer .pull-right {
 	line-height: 1;
 	padding: 3px 6px;
 }
+
+.prettyprint {
+	padding: 0;
+}
